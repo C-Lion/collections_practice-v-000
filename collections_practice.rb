@@ -8,7 +8,7 @@ end
 def sort_array_desc(array_of_integers)
   array_of_integers.sort do |a, b|
     b <=> a
-  
+  end
 end
 
 def sort_array_char_count
