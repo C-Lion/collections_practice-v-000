@@ -56,7 +56,6 @@ def add_s(array)
     else
       array[index] = "#{array}s"
     end
-    
-  
+  end
 end
 
