@@ -36,7 +36,7 @@ end
 end
 
 def find_a(array)
-  array.all?.starts_with?("a")
+  array.findall?.starts_with?("a")
 
 end
 
