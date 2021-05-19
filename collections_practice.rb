@@ -50,8 +50,8 @@ end
 
 #see if you can use .each_with_index in addition to .collect to solve this one
 def add_s(array)
-  array.each_with_index.collect do |word, index|
-    unless index == 1 
+  array.each_with_index do |word, index|
+    if index == 1 
       array[index] = "#{array}s"
     end
     
