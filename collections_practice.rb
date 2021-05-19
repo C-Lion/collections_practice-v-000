@@ -51,7 +51,7 @@ end
 #see if you can use .each_with_index in addition to .collect to solve this one
 def add_s(array)
   array.collect do |word|
-    if index == 1 
+    if array[i] == 1 
       array[1] = word
     else
       array[index] = "#{array}s"
