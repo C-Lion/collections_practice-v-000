@@ -42,7 +42,9 @@ def find_a(array)
 
 end
 
-def sum_array(arra)
+def sum_array(array)
+  array.sum_array!
+end
   
 end
 
