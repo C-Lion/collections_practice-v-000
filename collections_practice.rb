@@ -52,10 +52,10 @@ end
 def add_s(array)
   array.each_with_index.collect do |word, index|
   
-    if array[1] == word 
+    if index == 1  
       word
     else
-      array[index] = "#{array}s"
+      "#{array}s"
     end
   end
 end
